@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+body{
+	background:url("images/zcbg.png") no-repeat top center;
+	margin-right:150px;
+}
+form{
+	width:280px;
+	height:220px;
+	background-color:#F5EAE8;
+	padding:30px 40px;
+	border:1px solid #F5EAE8;
+}
+[type="yhm"],[type="mm"],[type="jym"]{
+	width:280px;
+	height:38px;
+	border:1px solid #CCC;
+	margin-bottom:30px;
+	font-size:16px;
+	text-indent:50px;
+}
+[type="yhm"]{
+	background:url("images/zczh.png") no-repeat 0 -8px;
+}
+[type="mm"]{
+	background:url("images/zcmm.png") no-repeat 0 -8px;
+}
+[type="jym"]{
+	background:url("images/zcyz.png") no-repeat 0 -8px;
+}
+.p{
+	font-size:36px;
+	color:rgba(255,255,255,1);
+}
+[type="checkbox"]{
+	display:inline;
+	vertical-align:middle;
+}
+[type="button"]{
+	width:280px;
+	height:44px;
+	margin:30px auto;
+	background-image:url("images/zcdl.png");
+	border:none;
+}
+.related{
+	width:182px;
+	height:100px;
+	background-color:#F5EAE8;
+	border-top:1px solid #DDD;
+	padding-top:20px;
+	padding-left:180px;
+	text-align:center;
+	font-size:14px;
+}
+.sb{
+	padding-left:170px;
+}
+.wd{
+	padding-top:160px;
+	float:right;
+}
+.yhdl{
+	font-size:30px;
+	font-family:"黑体";
+	text-align:center;
+	color:rgba(255,255,255,1);
+}
+</style>
+</head>
+
+<body>
+
+<div class="p">
+<img src="images/logozc.png" alt="">
+教务管理系统</div>
+<div class="wd">
+<div class="yhdl">
+   用户登录
+</div>
+<form action="#"method="post"name="form">
+        <input type="yhm"name="user"placeholder="用户名">
+        <input type="mm"name="pass"placeholder="填写密码">
+        <input type="jym"name="yzm"placeholder="校验码">
+        <div class="sb">
+        <img src="images/-33a1738a3a30cbd1.png" alt="">
+        </div>
+        <input type="checkbox"name="account"value="1"id="account">
+        <label for="account">部门</label>
+        <input type="checkbox"name="account"value="1"id="account">
+        <label for="account">教师</label>
+        <input type="checkbox"name="account"value="1"id="account">
+        <label for="account">学生</label>
+        <input type="checkbox"name="account"value="1"id="account">
+        <label for="account">访客</label>
+        <input type="button"name="button">
+</form>
+<div class="related">
+            <br><br><br>
+                      忘记密码
+</div>
+</div>
+</body>
+</html>

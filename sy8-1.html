@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+h2{
+	font-size:30px;
+	color:rgba(255,255,255,1);
+	text-align:center;
+}
+h1{
+	width:80px;
+	font-size:16px;
+	color:rgba(255,255,255,1);
+}
+h4{
+	font-size:12px;
+	color:rgba(255,255,255,1);
+}
+h3{
+	font-size:14px;
+	color:rgba(255,255,255,1);
+}
+form{
+	display:block;
+	width:560px;
+	height:700px;
+	margin:0 auto;
+	padding:20px;
+	background-color:rgba(71,71,71,1);
+}
+fieldset{
+	box-sizing:border-box;
+	width:100%;
+}
+[type="text"]{
+	width:120px;
+}
+[type="teyt"]{
+	width:60px;
+}
+[type="tezt"]{
+	width:435px;
+}
+.annu{
+	display:block;
+	text-align:center;
+	padding-top:15px;
+}
+.zzzz{
+	width:500px;
+}
+.table1,.table2,.table3{
+	display:table;
+	width:520px;
+}
+.table-row1,.table-row2,.table-row3{
+	display:table-row;
+	width:100%;
+}
+.table-cell1{
+	display:table-cell;
+	width:50px;
+}
+.table-cell2{
+	display:table-cell;
+	width:70px;
+}
+.table-cell3{
+	display:table-cell;
+	width:100px;
+}
+</style>
+</head>
+
+<body>
+<form action="#" method="post" name="form">
+<h2>增加快递信息</h2>
+<div class="zzzz">
+<fieldset>
+     <legend><h3>发货单</h3></legend>
+<div class="table1">
+   <div class="table-row1">
+     <div class="table-cell1"><h1>发货人：</h1></div>
+     <div class="table-cell2"><label><input type="text" name="fhr"></label></div>
+     <div class="table-cell1"><h1>地址：</h1></div>
+     <div class="table-cell2"><label><input type="text" name="dz"></label></div>
+   </div>
+   <div class="table-row1">
+     <div class="table-cell1"><h1>电话：</h1></div>
+     <div class="table-cell2"><label><input type="text" name="dh"></label></div>
+     <div class="table-cell1"><h1>邮编：</h1></div>
+     <div class="table-cell2"><label><input type="text" name="yb"></label></div>
+     </div>
+</div>
+</fieldset>
+<fieldset>
+     <legend><h3>收货单</h3></legend>
+<div class="table2">
+   <div class="table-row2">
+     <div class="table-cell1"><h1>收货人：</h1></div>
+     <div class="table-cell2"><label><input type="text" name="shr"></label></div>
+     <div class="table-cell1"><h1>地址：</h1></div>
+     <div class="table-cell2"><label><input type="text" name="dz"></label></div>
+   </div>
+   <div class="table-row2">
+     <div class="table-cell1"><h1>电话：</h1></div>
+     <div class="table-cell2"><label><input type="text" name="dh"></label></div>
+     <div class="table-cell1"><h1>邮编：</h1></div>
+     <div class="table-cell2"><label><input type="text" name="yb"></label></div>
+     </div>
+     <div class="table-row2">
+     <div class="table-cell1"><h1>地区：</h1></div>
+     <div class="table-cell2">
+     <select>
+     <option>北京</option>
+     <option>上海</option>
+     </select>
+     </div>
+     </div>
+     </div>
+     <div class="table-row2">
+     <div class="table-cell1"><h1>包装：</h1></div>
+     <div class="table-cell4">
+     <input type="checkbox" name="bz" value="zx">纸箱
+     <input type="checkbox" name="bz" value="mx">木箱
+     <input type="checkbox" name="bz" value="kdd">快递袋
+     <input type="checkbox" name="bz" value="qt">其他</div>
+     </div>
+     <div class="table-row2">
+     <div class="table-cell1"><h1>付款方式：</h1></div>
+     <div class="table-cell4">
+     <input type="radio" name="payment" value="cash">现金
+     <input type="radio" name="payment" value="alipay">支付宝
+     <input type="radio" name="payment" value="online">网银
+     <input type="radio" name="payment" value="atm">ATM</div>
+</div>
+</fieldset>
+<fieldset>
+     <legend><h3>货物信息</h3></legend>
+<div class="table3">
+   <div class="table-row3">
+     <div class="table-cell1"><h1>货物名称：</h1></div>
+     <div class="table-cell3"><label><input type="tezt" name="hwmc"></label></div>
+   </div> 
+   </div>
+   <div class="table3">
+   <div class="table-row3">
+     <div class="table-cell1"><h1>数量：</h1></div>
+     <div class="table-cell3"><label><input type="teyt" name="sl"></label></div>
+     <div class="table-cell1"><h1>重量:</h1></div>
+     <div class="table-cell3"><label><input type="teyt" name="zl"></label></div>
+     <div class="table-cell1"><h1>发货时间：</h1></div>
+     <div class="table-cell3"><label><input type="text" name="fhsj"></label></div>
+   </div>
+</div>
+</fieldset>
+<div class="annu">
+<input type="submit" value="确定">
+<input type="reset" value="取消">
+</div>
+</div>
+</form>
+</body>
+</html>
